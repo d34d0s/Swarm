@@ -15,7 +15,7 @@ from itertools import count as _count
 from collections import defaultdict
 from typing import TypeVar as _TypeVar
 
-from version import *
+from .version import *
 
 _Scene = _TypeVar('_Scene')  # custom typing
 _Component = _TypeVar('_Component')  # custom typing
